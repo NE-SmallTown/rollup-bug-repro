@@ -1,0 +1,36 @@
+{
+  "name": "rollup-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "repro": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NE-SmallTown/rollup-bug-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NE-SmallTown/rollup-bug-repro/issues"
+  },
+  "homepage": "https://github.com/NE-SmallTown/rollup-bug-repro#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.28.2",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.11.2",
+    "react": "^16.13.1",
+    "rollup-plugin-cjs-es": "^1.0.1"
+  }
+}
